@@ -1,0 +1,15 @@
+server:
+  port: 8081
+spring:
+  mail:
+    username: XXXX@qq.com #你的邮箱
+    password: XXXX #授权码
+    host: smtp.qq.com
+    properties:
+      mail:
+        smtp:
+          auth: true
+    port: 587
+
+she:
+  mail: XXXX@qq.com #女朋友邮箱
