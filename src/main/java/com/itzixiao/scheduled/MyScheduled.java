@@ -13,7 +13,7 @@ public class MyScheduled {
     @Autowired
     private SendMessage sendMessage;
 
-//    @Scheduled(cron = "0/30 * * * * ?")//每隔5s
+//    @Scheduled(cron = "0/5 * * * * ?")//每隔5s
 //    @Scheduled(cron = "0 0/10 * * * ?")//每隔10分钟
     @Scheduled(cron = "0 14 13 * * ?")//每天13点14分
     public void dsrw() {
