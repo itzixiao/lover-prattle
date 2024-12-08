@@ -7,8 +7,14 @@ spring:
     host: smtp.qq.com
     properties:
       mail:
+        transport:
+          protocol: smtp
         smtp:
           auth: true
+          starttls:
+            enable: true
+          ssl:
+            trust: smtp.qq.com
     port: 587
 
 she:
